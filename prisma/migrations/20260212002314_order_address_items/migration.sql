@@ -5,7 +5,7 @@ CREATE TABLE "Order" (
     "tax" DOUBLE PRECISION NOT NULL,
     "total" DOUBLE PRECISION NOT NULL,
     "itemsInOrder" INTEGER NOT NULL,
-    "isPay" BOOLEAN NOT NULL DEFAULT false,
+    "isPaid" BOOLEAN NOT NULL DEFAULT false,
     "paidAt" TIMESTAMP(3),
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
